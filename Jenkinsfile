@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        REMOTE_HOST = '172.31.27.188' // Replace with your server's IP or hostname
+        REMOTE_HOST = '3.111.29.194' // Replace with your server's IP or hostname
         REMOTE_USER = 'ec2-user'
         REMOTE_PATH = '/home/ec2-user/nodejs-app'
         SSH_CREDENTIALS = 'NodeServerSSHKey'
